@@ -15,11 +15,11 @@
 	<StackPanel>
 		<TextBox x:Name="cookie" TextWrapping="Wrap" AcceptsReturn="true" HorizontalAlignment="Center" VerticalAlignment="Center" IsEnabled="false"/>
 		<Button Content="Get new Cookie" Click="OnTick_Click"/>
-		<Label>ⓒ Giulio Sorrentino 2023 some right reserved</Label>
-		<Label>Version 1.0</Label>
+		<TextBlock TextWrapping="Wrap">ⓒ Giulio Sorrentino 2023 some right reserved</TextBlock>
+		<TextBlock TextWrapping="Wrap">Version 1.0</TextBlock>
 		<TextBlock TextWrapping="Wrap">This app wants to be the replacement of the unfortunated app fitfortune for fitbit</TextBlock>
-		<Label>A simple fortune's linux clone for android</Label>
+		<TextBlock TextWrapping="Wrap">A simple fortune's linux clone for android</TextBlock>
 		<TextBlock TextWrapping="Wrap">This app is under GPL v3 or, in your humble opinion, any later version</TextBlock>
-		<Label>https://github.com/numerunix/numfortune.avalonia</Label>
+		<TextBlock TextWrapping="Wrap">https://github.com/numerunix/numfortune.avalonia</TextBlock>
 	</StackPanel>
 </UserControl>
