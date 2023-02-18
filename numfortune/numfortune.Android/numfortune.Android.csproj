@@ -4,8 +4,8 @@
     <TargetFramework>net7.0-android</TargetFramework>
     <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
     <Nullable>enable</Nullable>
-    <ApplicationId>com.CompanyName.numfortune</ApplicationId>
-    <ApplicationVersion>1</ApplicationVersion>
+    <ApplicationId>org.altervista.numeronesot.numfortune</ApplicationId>
+    <ApplicationVersion>2</ApplicationVersion>
     <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
     <AndroidPackageFormat>apk</AndroidPackageFormat>
     <AndroidEnableProfiledAot>False</AndroidEnableProfiledAot>
