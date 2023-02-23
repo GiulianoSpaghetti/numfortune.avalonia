@@ -1,20 +1,22 @@
 # numfortune.avalonia
 A fortune's linux clone for android in avalonia
-Questo vuole essere un esperimento: il primo programma avalonia compilato per android, per windows e per GNU/Linux.
+This is meant to be an experiment: the first avalonia program compiled for android, for windows and for GNU/Linux.
 
-# Tramite repository
-Seguite prima la guida all'indirizzo https://learn.microsoft.com/it-it/dotnet/core/install/linux-debian
+# Get it
+[![google](https://play.google.com/intl/it_it/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=org.altervista.numerone.numfortune&hl=it)
 
-Installate la nuova chiave del repository tramite il comando sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 52B68EEB
 
-Poi inserite nel file /etc/apt/sources.list la riga deb http://numeronesoft.ddns.net/repos/apt/debian bullseye main
+# Using repository
+Follow the guide at https://learn.microsoft.com/it-it/dotnet/core/install/linux-debian first
 
-Infine fate apt update ed apt install cbriscola.avalonia
-                                                                                                                                                  
-# Donazioni
+Install the new repository key using the command sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 52B68EEB
+
+Then insert in the file /etc/apt/sources.list the line deb http://numeronesoft.ddns.net/repos/apt/debian bullseye main
+
+Finally do apt update and apt install cbriscola.avalonia                                                                                                                                                  
+# Donations
 
 [![paypal](https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=H4ZHTFRCETWXG)
 
-Puoi donare anche tramite carta Hype a patto di avere il mio numero di cellulare nella rubrica. Sai dove lo puoi trovare? Sul mio curriculum.
-Apri l'app Hype, fai il login, seleziona PAGAMENTI, INVIA DENARO, seleziona il mio numero nella rubrica, imposta l'importo, INSERISCI LA CAUSALE e segui le istruzioni a video.
-
+You can also donate through Hype card as long as you have my mobile number in the address book. Do you know where you can find it? On my curriculum.
+Open the Hype app, log in, select payments, send money, select my number in the address book, set the amount, enter the reason and follow the instructions on the video.
