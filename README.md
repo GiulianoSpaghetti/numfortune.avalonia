@@ -3,14 +3,13 @@ A fortune's linux clone for android in avalonia
 This is meant to be an experiment: the first avalonia program compiled for android, for windows and for GNU/Linux.
 
 
-# Using repository
+# Installing using repository (GNU/Linux)
 Follow the guide at https://learn.microsoft.com/it-it/dotnet/core/install/linux-debian first
 
-Install the new repository key using the command sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 52B68EEB
+Then follow the guide at http://numeronesoft.ddns.net
 
-Then insert in the file /etc/apt/sources.list the line deb http://numeronesoft.ddns.net/repos/apt/debian bullseye main
+and then update and install numfortune.avalonia
 
-Finally do apt update and apt install cbriscola.avalonia                                                                                                                                                  
 # Donations
 
 [![paypal](https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=H4ZHTFRCETWXG)
