@@ -10,6 +10,10 @@ Then follow the guide at http://numeronesoft.ddns.net
 
 and then update and install numfortune.avalonia
 
+# Android
+
+[![google](https://play.google.com/intl/it_it/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=org.altervista.numerone.numfortune)
+
 # Donations
 
 http://numerone.altervista.org/donazioni.php
