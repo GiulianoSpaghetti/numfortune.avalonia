@@ -33,7 +33,7 @@ namespace windatefrom_setup
                        //new Property("ALLUSERS","0")
             );
 
-            project.GUID = new Guid("A2941143-09E9-45AD-8017-0DB4C98D80D2");
+            project.GUID = new Guid("90D24925-7418-48AD-9950-676C2F839B20");
             project.Version = new Version("2.0.3");
             project.Platform = Platform.x64;
             project.SourceBaseDir = "F:\\source\\numfortune.avalonia\\numfortune\\numfortune.Desktop\\bin\\Release\\net8.0";
