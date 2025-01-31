@@ -10,20 +10,32 @@
 
   <PropertyGroup>
     <ApplicationManifest>app.manifest</ApplicationManifest>
-    <ApplicationIcon>icon.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="icon.ico" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Avalonia.Desktop" Version="$(AvaloniaVersion)" />
+    <PackageReference Include="Avalonia.Angle.Windows.Natives" Version="2.1.22087.20231008" />
+    <PackageReference Include="Avalonia.BuildServices" Version="0.0.31" />
+    <PackageReference Include="Avalonia.Desktop" Version="11.2.3" />
     <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
-    <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="$(AvaloniaVersion)" />
+    <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="11.2.3" />
+    <PackageReference Include="DynamicData" Version="9.1.1" />
+    <PackageReference Include="HarfBuzzSharp" Version="8.3.0.1" />
+    <PackageReference Include="HarfBuzzSharp.NativeAssets.Linux" Version="8.3.0.1" />
+    <PackageReference Include="HarfBuzzSharp.NativeAssets.WebAssembly" Version="8.3.0.1" />
+    <PackageReference Include="ReactiveUI" Version="20.1.63" />
+    <PackageReference Include="SkiaSharp" Version="3.116.1" />
+    <PackageReference Include="SkiaSharp.NativeAssets.Linux" Version="3.116.1" />
+    <PackageReference Include="SkiaSharp.NativeAssets.WebAssembly" Version="3.116.1" />
+    <PackageReference Include="Splat" Version="15.3.1" />
+    <PackageReference Include="System.IO.Pipelines" Version="9.0.1" />
+    <PackageReference Include="Tmds.DBus.Protocol" Version="0.21.2" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\numfortune\numfortune.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AvaloniaResource Remove="icon.ico" />
   </ItemGroup>
 </Project>
