@@ -4,7 +4,7 @@ This is meant to be an experiment: the first avalonia program compiled for andro
 
 ## Using it from browser
 
-http://numeronesoft.ddns.net:8080/apps/numfortune/
+[!(http://numeronesoft.ddns.net:8080/apps/numfortune/)](http://numeronesoft.ddns.net:8080/apps/numfortune/)
 
 ## Installing using repository (GNU/Linux)
 
