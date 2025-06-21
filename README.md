@@ -2,6 +2,9 @@
 A fortune's linux clone for android in avalonia
 This is meant to be an experiment: the first avalonia program compiled for android, for windows and for GNU/Linux.
 
+## Attention
+On Windows and Linux this software is declared legacy and subistitued from numerone's fortune material.
+
 ## Using it from browser
 
 http://numeronesoft.ddns.net:8080/apps/numfortune/
